@@ -10,14 +10,14 @@
     "sourceMap": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
+    "forceConsistentCasingInFileNames": false,
     "types": ["node", "vscode"]
   },
   "include": [
-    "extension/**/*",
-    "server/**/*",
-    "client/**/*",
-    "shared/**/*"
+    "extension/**/*.ts",
+    "server/**/*.ts",
+    "client/**/*.ts",
+    "shared/**/*.ts"
   ],
   "exclude": ["node_modules", ".vscode-test"]
 }
